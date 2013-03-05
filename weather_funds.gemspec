@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["kieran@invisiblelines.com"]
   gem.description   = %q{Ruby interface to results from weatherfunds.co.uk}
   gem.summary       = %q{Ruby interface to results from weatherfunds.co.uk}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/invisiblelines/weather_funds"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
